@@ -1,0 +1,80 @@
+:root {
+  --pink-main: #ff8ac3d7;
+  --pink-soft: #f0cef5;
+  --pink-light: #ffe6f4;
+  --pink-dark: #d6297b;
+  --text-dark: #000000;
+}
+
+body {
+  background: var(--pink-light) !important;
+  font-family: "Poppins", sans-serif;
+}
+
+
+input, select {
+  border: 2px solid var(--pink-main) !important;
+  color: #000000 !important;
+  background: white !important;
+  border-radius: 15px !important;
+  height: 50px;
+}
+
+input:focus, select:focus {
+  outline: none;
+  box-shadow: 0 0 8px var(--pink-main);
+}
+
+
+.card {
+  border: none !important;
+  border-radius: 20px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25) !important;
+  background: white;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+.navbar {
+  background: linear-gradient(90deg, var(--pink-dark), var(--pink-main)) !important;
+  padding: 15px !important;
+}
+
+.nav-link, .navbar-brand {
+  color: white !important;
+  font-weight: 600;
+}
+
+
+.btn-primary {
+  background-color: var(--pink-main) !important;
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 10px 30px !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--pink-dark) !important;
+}
+
+
+.hero-box {
+  background: linear-gradient(135deg, var(--pink-main), var(--pink-dark));
+  border-radius: 25px;
+  padding: 60px;
+  color: white;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
